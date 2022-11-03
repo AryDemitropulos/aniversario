@@ -63,7 +63,7 @@ export const Main = () => {
       <div className="main">
         <CarouselContainer />
         <Countdown
-          date={new Date(1667358000000)}
+          date={new Date(1668327544000)}
           intervalDelay={1000}
           precision={1}
           renderer={(props) => <CountdownManager {...props.formatted} />}
